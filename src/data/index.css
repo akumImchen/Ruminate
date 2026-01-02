@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    max-width: 420px; /* toi laka words aro content laka size hoijai container toh */
+    border: 1px solid black;
+    border-radius: 10px ;
+    display: flex;
+    flex-direction: column;
+    margin:200px auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+
+}
+label{
+    text-align: center;
+    margin-top: 20px;
+}
+#moodInput{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+    align-self: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+#song{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100px;
+    align-self: center; /*aligns a button to the center*/
+    border-radius: 3px;
+    padding: 6px;
+}
