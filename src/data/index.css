@@ -3,14 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main-container{
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#main-container{
     width: 100%;
     max-width: 420px; /* toi laka words aro content laka size hoijai container toh */
     border: 1px solid black;
     border-radius: 10px ;
     display: flex;
     flex-direction: column;
-    margin:200px auto;
+    /* margin:200px auto; */
     padding: 20px;
 }
 h1{
@@ -29,11 +35,35 @@ label{
     padding: 10px;
     border-radius: 5px;
 }
-#song{
+#getSong{
     margin-top: 20px;
     width: 100%;
     max-width: 100px;
     align-self: center; /*aligns a button to the center*/
     border-radius: 3px;
     padding: 6px;
+}
+#results{
+    width: 100%;
+    max-width: 420px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 100px;
+    text-align: center;
+    /* margin: 200px auto; */
+
+}
+#results p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.hidden{
+    display: none !important;
+}
+.song-card img{
+    max-width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height:300px;
+    object-fit: cover;
 }

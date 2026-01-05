@@ -13,3 +13,4 @@ export function interpretMood(text){
 console.log(interpretMood("I am very happy today"));
 console.log(interpretMood("feeling low and sad"));
 console.log(interpretMood("just wanna relax"));
+ 
