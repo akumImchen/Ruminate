@@ -8,6 +8,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-image:url("g3.jpg");
+    background-size: cover;
+
 }
 #main-container{
     width: 100%;
@@ -16,12 +19,16 @@ body {
     border-radius: 10px ;
     display: flex;
     flex-direction: column;
+    background-color: white;
     /* margin:200px auto; */
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    font-family: jost, sans-serif;
+
 }
 h1{
     text-align: center;
+    font-family: jost, sans-serif;
 
 }
 label{
@@ -52,6 +59,9 @@ label{
     height: 400px;
     text-align: center;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    font-family: jost, sans-serif;
+    /* box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); */
+    background-color: white;
 
 }
 #results p {
