@@ -41,7 +41,7 @@ function renderSongs(songs){
         img.src=song.image;
         
         //title
-        const title=document.createElement("p");
+        const title=document.createElement("h4");
          title.textContent = song.title;
 
         // artist
